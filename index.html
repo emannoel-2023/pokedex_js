@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"  href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>Pokedex</title>
+</head>
+<body>
+        <main>
+            <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+            <img src="./images/pokedex_celular.png" alt="pokedex_celular" class="pokedex_celular">
+            <img src="" alt="pokemon" class="pokemon_image">
+            <h1 class="pokemon_data"><span class="pokemon_number"></span> - 
+            <span class="pokemon_name"></span></h1>
+            <form class="form">
+                <input type="search" class="input_search" placeholder="Name or Number" required>
+            </form>
+            <div class="infos">
+                <h3 class="tittle_stats">Types:</h2>
+                <h3 class="stats" readonly></h3>
+                <h3 class="tittle_stats2">Stats:</h2>
+                <textarea readonly class="stats2" rows="5" cols="40" ></textarea>
+                <h3 class="experience">Base experience:</h3>
+                <h3 class="exp"></h3>
+                <h3 class="weight_title">Weight:</h3>
+                <h3 class="weight"></h3>
+                <h3 class="moves_title">Moves:</h3>
+                <div class="moves"></div>
+            </div>
+    
+            <div class="buttons">
+                <button class="button button-prev">Prev &lt;</button>
+                <button class="button button-next">Next &gt; </button>
+            </div>
+            <footer class="footer">&#169;OpenSource-2022</footer>
+        </main>
+</body>
+</html>
